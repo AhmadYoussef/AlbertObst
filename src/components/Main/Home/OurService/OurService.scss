@@ -1,0 +1,50 @@
+.ourService{
+    background-color: rgb(251, 251 , 251);
+    border-top: 10px solid rgb(102,140,77);
+    margin-top: -80px;
+    padding: 70px;
+    h3{
+        text-align: center;
+    }
+    figure{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+        div{
+            position: relative;
+            width: 80%;
+            max-width: 260px;
+            min-width: 200px;
+            border-radius: 50%;
+            img{
+                width: 100%;
+            }
+        }
+        figcaption{
+            padding-left: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .ourService{
+        margin-top: 50px;
+        figure{
+            width: 100%; 
+            margin: 0 ; 
+        }
+    }
+}
+@media screen and (max-width: 790px) {
+    .ourService{
+        figure{
+            flex-direction: column;
+            div{
+                max-width: 200px;
+                min-width: 130px;
+        }
+    }
+}
+}

@@ -1,0 +1,30 @@
+.notExist{
+    padding-top: 120px;
+    height: 66vh;
+    text-align: center;
+    p{  
+        font-size: 2.5rem;
+        margin: 0;
+        line-height: 60vh;
+    }
+}
+
+@media screen and (max-width : 900px){
+    .notExist{
+        padding-top: 70px;
+        height: 67.5vh;
+        p{
+        line-height: 67vh;
+        font-size: 1.7rem;
+        }
+    }
+}
+@media screen and (max-width : 490px){
+    .notExist{
+        height: 61.3vh;
+        p{
+            line-height: 60vh;
+            font-size: 1.3rem;
+        }
+    }
+}
